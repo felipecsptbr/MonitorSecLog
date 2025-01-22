@@ -24,9 +24,12 @@ O id_usuario que teve mais de 3 tentativas consecutivas de falha.
 
 Se nenhum usuário tiver mais de 3 tentativas de falha consecutivas, o sistema deve retornar a mensagem "Nenhum invasor detectado".
 
-
+_______________________________________________________________________________
 Entrada	Saída
-
+_______________________________________________________|________________________
 user1:falha, user1:falha, user1:falha, user1:sucesso	| Nenhum invasor detectado
+________________________________________________________________________________
 user2:falha, user2:falha, user2:falha, user2:falha	| user2
+________________________________________________________________________________
 user3:sucesso, user3:falha, user3:falha, user3:falha, user3:falha	| user3
+_______________________________________________________________________________
